@@ -19,6 +19,7 @@
 		5A9FE9131804CC5900785660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9FE8FB1804CC5800785660 /* UIKit.framework */; };
 		5A9FE91B1804CC5900785660 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FE9191804CC5900785660 /* InfoPlist.strings */; };
 		5A9FE91D1804CC5900785660 /* HackerNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FE91C1804CC5900785660 /* HackerNewsTests.m */; };
+		5A9FE9281804CDFC00785660 /* ArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FE9271804CDFC00785660 /* ArticlesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		5A9FE9181804CC5900785660 /* HackerNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackerNewsTests-Info.plist"; sourceTree = "<group>"; };
 		5A9FE91A1804CC5900785660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A9FE91C1804CC5900785660 /* HackerNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerNewsTests.m; sourceTree = "<group>"; };
+		5A9FE9261804CDFC00785660 /* ArticlesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlesViewController.h; sourceTree = "<group>"; };
+		5A9FE9271804CDFC00785660 /* ArticlesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				5A9FE9071804CC5800785660 /* AppDelegate.m */,
 				5A9FE9091804CC5900785660 /* Images.xcassets */,
 				5A9FE8FE1804CC5800785660 /* Supporting Files */,
+				5A9FE9261804CDFC00785660 /* ArticlesViewController.h */,
+				5A9FE9271804CDFC00785660 /* ArticlesViewController.m */,
 			);
 			path = HackerNews;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A9FE9081804CC5900785660 /* AppDelegate.m in Sources */,
+				5A9FE9281804CDFC00785660 /* ArticlesViewController.m in Sources */,
 				5A9FE9041804CC5800785660 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
