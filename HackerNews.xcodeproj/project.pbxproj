@@ -77,6 +77,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A1EA7FE180E324C00A690BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5A1EA7FF180E325600A690BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A1EA800180E328200A690BF /* Icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5A1EA800180E328200A690BF /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		5A9FE8EB1804CC5800785660 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +132,8 @@
 		5A9FE8FD1804CC5800785660 /* HackerNews */ = {
 			isa = PBXGroup;
 			children = (
+				5A1EA7FF180E325600A690BF /* Resources */,
+				5A1EA7FE180E324C00A690BF /* Model */,
 				5A9FE9061804CC5800785660 /* AppDelegate.h */,
 				5A9FE9071804CC5800785660 /* AppDelegate.m */,
 				5A9FE9091804CC5900785660 /* Images.xcassets */,
@@ -447,6 +471,7 @@
 				5A9FE9221804CC5900785660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A9FE9231804CC5900785660 /* Build configuration list for PBXNativeTarget "HackerNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +480,7 @@
 				5A9FE9251804CC5900785660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

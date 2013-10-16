@@ -8,11 +8,7 @@
 
 #import "ArticlesViewController.h"
 
-@interface ArticlesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
-    UITableView *firstTableView;
-}
 
-@end
 
 @implementation ArticlesViewController
 
